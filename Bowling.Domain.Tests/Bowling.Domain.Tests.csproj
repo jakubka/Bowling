@@ -54,12 +54,17 @@
   <ItemGroup>
     <Compile Include="BallTests.cs" />
     <Compile Include="FrameTests.cs" />
+    <Compile Include="LineTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Bowling.Console\Bowling.Console.csproj">
+      <Project>{63D5C9F4-7ED3-4B70-8C30-0F5B9B0AE12C}</Project>
+      <Name>Bowling.Console</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Bowling.Domain\Bowling.Domain.csproj">
       <Project>{AED66822-10CD-4A2F-9DFF-75E4C370DF9D}</Project>
       <Name>Bowling.Domain</Name>
