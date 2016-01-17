@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Console", "Bowling.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Domain", "Bowling.Domain\Bowling.Domain.csproj", "{AED66822-10CD-4A2F-9DFF-75E4C370DF9D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0DD89F34-1533-4281-BE7C-A47BEB3328BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bowling.Domain.Tests", "Bowling.Domain.Tests\Bowling.Domain.Tests.csproj", "{7167803A-0D37-4C37-91BE-2360073E3C2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{AED66822-10CD-4A2F-9DFF-75E4C370DF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED66822-10CD-4A2F-9DFF-75E4C370DF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED66822-10CD-4A2F-9DFF-75E4C370DF9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7167803A-0D37-4C37-91BE-2360073E3C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7167803A-0D37-4C37-91BE-2360073E3C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7167803A-0D37-4C37-91BE-2360073E3C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7167803A-0D37-4C37-91BE-2360073E3C2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7167803A-0D37-4C37-91BE-2360073E3C2D} = {0DD89F34-1533-4281-BE7C-A47BEB3328BD}
 	EndGlobalSection
 EndGlobal
